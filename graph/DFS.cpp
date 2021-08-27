@@ -5,8 +5,8 @@ bool vis[N];
 vector<int>adj[N];
 void dfs(int node){
     vis[node]=1;
-    //for preoredr;
-    // cout<<node<<endl;
+    // for preoredr;
+    cout<<node<<endl;
     //inorder;
     for(auto it:adj[node]){
         if(vis[it]);
@@ -15,7 +15,7 @@ void dfs(int node){
         }
     }
     //for postorder;
-    cout<<node<<endl;
+    // cout<<node<<endl;
 }
 int main(){
     for(int i=0;i<N;i++){
