@@ -23,7 +23,7 @@ int main(){
         int node=q.front();
         q.pop();
         cout<<node<<endl;
-        vector<int>::iterator it;
+        
         for(auto it:adj[node]){
             if(!vis[it]){
                 q.push(it);
