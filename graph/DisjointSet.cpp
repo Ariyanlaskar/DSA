@@ -49,3 +49,5 @@ int main(){
     }
     return 0;
 }
+//TC-O(1);
+//SC-O(n);
