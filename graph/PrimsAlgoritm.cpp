@@ -21,6 +21,7 @@ int main(){
     }
     key[0]=0;
     parent[0]=-1;
+    int cost=0;
     for(int i=0;i<N-1;i++){
         int mini=INT_MAX,u;
         for(int v=0;v<N;v++){
@@ -28,20 +29,25 @@ int main(){
                 mini=key[v];
                 u=v;
             }
-            mstset[u]=true;
-            for(auto it:adj[u]){
-                int v=it.first;
-                int weight=it.second;
-                if(mstset[v]==false && weight<key[v]){
-                    parent[v]=u;
-                    key[v]=weight;
-                }
+        }
+        
+        mstset[u]=true;
+        for(auto it:adj[u]){
+            int v=it.first;
+            int weight=it.second;
+            if(mstset[v]==false && weight<key[v]){
+                parent[v]=u;
+                key[v]=weight;
+                
             }
+           
         }
-        for(int i=0;i<N;i++){
-            cout<<parent[i]<<"-"<<i<<endl;
-        }
-
     }
+    for(int i=1;i<N;i++){
+        cout<<parent[i]<<" - "<<i<<endl;
+    }
+    cout<<cost<<endl;
+
+    
     return 0;
 }
