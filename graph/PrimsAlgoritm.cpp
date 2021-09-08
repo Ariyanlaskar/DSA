@@ -21,7 +21,7 @@ int main(){
     }
     key[0]=0;
     parent[0]=-1;
-    int cost=0;
+    
     for(int i=0;i<N-1;i++){
         int mini=INT_MAX,u;
         for(int v=0;v<N;v++){
@@ -46,7 +46,7 @@ int main(){
     for(int i=1;i<N;i++){
         cout<<parent[i]<<" - "<<i<<endl;
     }
-    cout<<cost<<endl;
+    
 
     
     return 0;
