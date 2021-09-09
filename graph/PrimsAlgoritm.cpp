@@ -14,6 +14,7 @@ int main(){
     int parent[N];
     int key[N];
     bool mstset[N];
+    int cost=0;
     for(int i=0;i<N;i++){
         key[i]=INT_MAX;
         mstset[i]=false;
@@ -40,12 +41,14 @@ int main(){
                 key[v]=weight;
                 
             }
-           
         }
     }
     for(int i=1;i<N;i++){
-        cout<<parent[i]<<" - "<<i<<endl;
+        cout<<parent[i]<<" - "<<i<<endl;  
+        cost+=key[i]; 
     }
+    cout<<cost;
+    
     
 
     
