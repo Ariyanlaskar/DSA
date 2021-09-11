@@ -1,3 +1,5 @@
+// Time complexity=O((N+E)logN) -> O(NlogN);
+// Space complexity=O(N)+O(N);
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
