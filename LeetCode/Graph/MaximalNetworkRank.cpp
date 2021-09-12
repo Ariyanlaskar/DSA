@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 int maximalNetworkRank(int n, vector<vector<int>>& roads) {
+    //Matrix can also be made using vector;
+    // vector<vector<bool>>matrix(n,vector<bool>(n,false));
     bool matrix[n][n];
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
