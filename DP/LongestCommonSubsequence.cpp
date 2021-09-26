@@ -13,7 +13,7 @@ int LCS(string s1,string s2,int n,int m){
                 dp[i][j]=0;
                 continue;
             }
-            if(s1[n-1]==s2[m-1]){
+            if(s1[i-1]==s2[j-1]){
                 dp[i][j]=1+dp[i-1][j-1];
             }
             else{
@@ -40,15 +40,15 @@ int LCS(string s1,string s2,int n,int m){
 // }
 
 int main(){
-    int n=5;
-    int m=3;
+    int n=7;
+    int m=6;
     // for(int i=0;i<N;i++){
     //     for(int j=0;j<N;j++){
     //         dp[i][j]=-1;
     //     }
     // }
-    string s1="abcde";
-    string s2="ace";
+    string s1="RISHABH";
+    string s2="SHUBHI";
     cout<<LCS(s1,s2,n,m)<<endl;
     return 0;
 }
