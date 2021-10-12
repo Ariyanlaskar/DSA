@@ -1,3 +1,4 @@
+//leetCode Easy;
 #include<bits/stdc++.h>
 using namespace std;
  bool isUgly(int n) {
