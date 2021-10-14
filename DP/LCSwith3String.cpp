@@ -17,7 +17,7 @@ int LCS(string &s1,string &s2,string &s3,int i,int j,int k){
     int p=LCS(s1,s2,s3,i,j,k-1);
     return dp[i][j][k]=max({l,r,p});
     }
-//without using dp;
+//without using dp(brute force);
 // int LCS(string &s1,string &s2,string &s3,int i,int j,int k){
 //     if(i==0 || j==0 || k==0){
 //         return 0;
