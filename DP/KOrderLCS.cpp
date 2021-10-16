@@ -21,7 +21,7 @@ int LCS(vector<int>&arr,vector<int>&arr1,int i,int j,int k){
     }
     return dp[i][j][k]=max({c1,c2,c3});
 }
-// // Without Dp(brute force approach); 
+// // Without Dp(Recursive Solution); 
 // int LCS(vector<int>&arr,vector<int>&arr1,int i,int j,int k){
 //     if(i==arr.size() || j==arr1.size()){
 //         return 0;
