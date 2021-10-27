@@ -1,7 +1,7 @@
-//Only Solution Function;
+//Only Solution Function(tree is not constructed);
 #include<bits/stdc++.h>
 using namespace std;
-vector<int> inorderTraversal(TreeNode* root) {
+vector<int> inorderTraversal(TreeNode* root){
     vector<int>ans;
     findInorder(root,ans);
     return ans;
