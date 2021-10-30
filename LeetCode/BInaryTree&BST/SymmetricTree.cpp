@@ -9,7 +9,7 @@ bool Symmetric_Or_Not(TreeNode* root1,TreeNode* root2){
     if(root1->val!=root2->val){
         return false;
     }
-    return Symmetric_Or_Not(root1->left,root2->right) & Symmetric_Or_Not(root1->right,root2->left);
+    return Symmetric_Or_Not(root1->left , root2->right) & Symmetric_Or_Not(root1->right,root2->left);
 }
 bool isSymmetric(TreeNode* root) {
     if(root==NULL){
