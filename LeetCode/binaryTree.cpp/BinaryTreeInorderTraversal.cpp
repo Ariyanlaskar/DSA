@@ -14,7 +14,3 @@ void findInorder(TreeNode* root,vector<int>&ans){
     ans.push_back(root->val);
     findInorder(root->right,ans);
 }
-int main(){
-    
-    return 0;
-} 
