@@ -17,6 +17,3 @@ bool isSymmetric(TreeNode* root) {
     }
     return Symmetric_Or_Not(root->left,root->right);
 }
-int main(){
-    return 0;
-}

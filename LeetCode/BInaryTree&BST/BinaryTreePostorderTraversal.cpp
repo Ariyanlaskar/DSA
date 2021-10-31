@@ -15,6 +15,4 @@ void postOrder(TreeNode* root){
     postOrder(root->right);
     ans.push_back(root->val);
 }
-int main(){
-    return 0;
-}
+

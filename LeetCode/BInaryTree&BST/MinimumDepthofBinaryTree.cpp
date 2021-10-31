@@ -13,6 +13,3 @@ int minDepth(TreeNode* root) {
     }
     return 1+min(right_dept,left_dept);
 }
-int main(){
-    return 0;
-}

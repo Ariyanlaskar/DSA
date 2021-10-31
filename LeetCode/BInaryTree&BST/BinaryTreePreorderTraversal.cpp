@@ -15,6 +15,3 @@ vector<int> preorderTraversal(TreeNode* root) {
     findPreorder(root);
     return ans;
 }
-int main(){
-    return 0;
-}

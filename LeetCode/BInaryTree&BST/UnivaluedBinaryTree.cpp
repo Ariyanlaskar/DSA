@@ -14,6 +14,3 @@ bool check(TreeNode* root,int value){
 bool isUnivalTree(TreeNode* root) {
     return check(root,root->val);
 }
-int main(){
-    return 0;
-}
