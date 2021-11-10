@@ -4,13 +4,11 @@ using namespace std;
 void moveZeroes(vector<int> &nums)
 {
     vector<int> ans;
-    int count = 0;
     for (int i = 0; i < nums.size(); i++)
     {
         if (nums[i] != 0)
         {
             ans.push_back(nums[i]);
-            count++;
         }
     }
     for (int i = ans.size(); i < nums.size(); i++)
