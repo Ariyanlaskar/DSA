@@ -1,3 +1,4 @@
+//LeetCode Easy 530;
 #include <bits/stdc++.h>
 using namespace std;
 int ans = INT_MAX;
