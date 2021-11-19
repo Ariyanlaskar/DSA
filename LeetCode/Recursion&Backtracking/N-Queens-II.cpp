@@ -67,3 +67,4 @@ int main()
     cout<<totalNQueens(n)<<endl;
     return 0;
 }
+// Output : 2; 
