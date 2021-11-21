@@ -69,8 +69,10 @@ void postorder(node* root){
 }
 
 int main(){
-    int pos[]={4,2,5,3,1};
-    int in[]={4,2,1,5,3};
+    // int pos[]={4,2,5,3,1};
+    // int in[]={4,2,1,5,3};
+    int pos[]={2,1};
+    int in[]={2,1};
 
     node* tree=buildTree(pos,in,0,4);
     preorder(tree);
