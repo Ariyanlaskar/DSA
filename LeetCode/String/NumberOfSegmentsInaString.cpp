@@ -1,3 +1,4 @@
+//LeetCode Easy 434;
 #include <bits/stdc++.h>
 using namespace std;
 int countSegments(string s)
