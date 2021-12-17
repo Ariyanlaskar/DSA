@@ -1,5 +1,31 @@
 #include <bits/stdc++.h>
 using namespace std;
+//Using HashMap;
+unordered_map<int, int> mp;
+int count = 0;
+int pathSum(TreeNode *root, int targetSum)
+{
+    mp[0]++;
+    CountPathSum(root, targetSum, 0);
+    return count;
+}
+void CountPathSum(TreeNode *root, int targetSum, int sum)
+{
+    if (root == NULL)
+    {
+        return;
+    }
+    sum += root->val;
+    if (mp.find(sum - targetSum) != mp.end())
+    {
+        count += mp[sum - targetSum];
+    }
+    mp[sum]++;
+    CountPathSum(root->left, targetSum, sum);
+    CountPathSum(root->right, targetSum, sum);
+    mp[sum]--;
+}
+//Without Using HashMap; 
 int count = 0;
 int pathSum(TreeNode *root, int targetSum)
 {
