@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//Slow solution
 vector<string> findRelativeRanks(vector<int> &score)
 {
     vector<string> ans;
