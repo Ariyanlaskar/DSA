@@ -29,7 +29,7 @@ vector<int> solve(TreeNode *root, int d)
         }
     }
     vector<int> ret;
-    for (auto i : left)
+    for(auto i : left)
     {
         if (i)
         {
