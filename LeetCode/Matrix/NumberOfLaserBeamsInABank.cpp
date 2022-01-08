@@ -31,3 +31,5 @@ int numberOfBeams(vector<string> &bank)
     }
     return ans;
 }
+// Input: bank = ["011001","000000","010100","001000"]
+// Output: 8
