@@ -28,3 +28,10 @@ void dfs(int i, int j, vector<vector<char>> &grid)
     dfs(i, j + 1, grid);
     dfs(i, j - 1, grid);
 }
+// Input: grid = [
+//   ["1","1","1","1","0"],
+//   ["1","1","0","1","0"],
+//   ["1","1","0","0","0"],
+//   ["0","0","0","0","0"]
+// ]
+// Output: 1
