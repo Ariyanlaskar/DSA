@@ -40,3 +40,5 @@ bool isPossible(string &s, int i, int j)
     }
     return true;
 }
+// Input: s = "aab"
+// Output: [["a","a","b"],["aa","b"]]
