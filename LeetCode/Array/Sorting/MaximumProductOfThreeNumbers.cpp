@@ -13,3 +13,5 @@ int maximumProduct(vector<int> &nums)
     ans = max(ans, c);
     return ans;
 }
+// Input: nums = [1,2,3]
+// Output: 6
