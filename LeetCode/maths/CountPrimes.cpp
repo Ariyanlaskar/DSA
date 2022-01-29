@@ -29,3 +29,5 @@ int countPrimes(int n)
     }
     return countPrime;
 }
+// Input: n = 10
+// Output: 4
