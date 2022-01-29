@@ -41,3 +41,5 @@ void inorder(TreeNode *root)
     prev = root;
     inorder(root->right);
 }
+// Input: root = [1,3,null,null,2]
+// Output: [3,1,null,null,2]
