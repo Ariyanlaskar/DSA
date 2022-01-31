@@ -15,3 +15,5 @@ int maximumWealth(vector<vector<int>> &accounts)
     }
     return ans;
 }
+// Input: accounts = [[1,2,3],[3,2,1]]
+// Output: 6
