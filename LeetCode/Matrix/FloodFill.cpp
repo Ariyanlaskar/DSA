@@ -27,3 +27,5 @@ void dfs(vector<vector<int>> &image, int r, int c, int newColor, int color, vect
         dfs(image, r, c + 1, newColor, color, vis);
     }
 }
+// Input: image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, newColor = 2
+// Output: [[2,2,2],[2,2,0],[2,0,1]]
