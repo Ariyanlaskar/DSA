@@ -28,3 +28,6 @@ vector<int> findAnagrams(string s, string p)
     }
     return ans;
 }
+// Input: s = "cbaebabacd", p = "abc"
+// Output: [0,6]
+
