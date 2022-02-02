@@ -45,3 +45,5 @@ string minWindow(string s, string t)
     }
     return ans;
 }
+// Input: s = "ADOBECODEBANC", t = "ABC"
+// Output: "BANC"
