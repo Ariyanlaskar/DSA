@@ -29,3 +29,5 @@ int largestSumAfterKNegations(vector<int> &nums, int k)
     }
     return sum;
 }
+// Input: nums = [3,-1,0,2], k = 3
+// Output: 6
