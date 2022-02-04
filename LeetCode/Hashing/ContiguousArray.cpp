@@ -32,3 +32,5 @@ int findMaxLength(vector<int> &nums)
     }
     return len;
 }
+// Input: nums = [0,1]
+// Output: 2
