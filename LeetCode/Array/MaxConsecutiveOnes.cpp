@@ -18,6 +18,9 @@ int removeDuplicates(vector<int> &nums)
     }
     return i;
 }
+
+// OR(Alternate Way)
+
 int findMaxConsecutiveOnes(vector<int> &nums)
 {
     int ans = 0;
