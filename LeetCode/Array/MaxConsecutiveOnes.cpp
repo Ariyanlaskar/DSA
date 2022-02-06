@@ -1,6 +1,23 @@
-//LeetCode Easy 485;
+// LeetCode Easy 485;
 #include <bits/stdc++.h>
 using namespace std;
+int removeDuplicates(vector<int> &nums)
+{
+    if (nums.size() < 3)
+    {
+        return nums.size();
+    }
+    int i = 2, j = 2;
+    for (int j = 2; j < nums.size(); j++)
+    {
+        if (nums[j] != nums[i - 2])
+        {
+            nums[i] = nums[j];
+            i++;
+        }
+    }
+    return i;
+}
 int findMaxConsecutiveOnes(vector<int> &nums)
 {
     int ans = 0;
@@ -21,8 +38,8 @@ int findMaxConsecutiveOnes(vector<int> &nums)
 }
 int main()
 {
-    vector<int>nums = {1,1,0,1,1,1};
-    cout<<findMaxConsecutiveOnes(nums)<<endl;
+    vector<int> nums = {1, 1, 0, 1, 1, 1};
+    cout << findMaxConsecutiveOnes(nums) << endl;
     return 0;
 }
 // Input: nums = [1,1,0,1,1,1]
