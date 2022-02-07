@@ -1,4 +1,4 @@
-//LeetCode Easy 389;
+// LeetCode Easy 389;
 #include <bits/stdc++.h>
 using namespace std;
 char findTheDifference(string s, string t)
@@ -21,11 +21,25 @@ char findTheDifference(string s, string t)
     }
     return 0;
 }
-int main()
+// OR
+
+char findTheDifference(string s, string t)
 {
-    string  s = "abcd", t = "abcde";
-    cout<<findTheDifference(s,t)<<endl;
+    map<char, int> mp;
+    for (auto &i : s)
+    {
+        mp[i]++;
+    }
+    for (auto &it : t)
+    {
+        if (mp[it] == 0)
+        {
+            return it;
+        }
+        mp[it]--;
+    }
     return 0;
 }
+// Input: s = "abcd", t = "abcde"
 // Output: "e"
 // Explanation: 'e' is the letter that was added.
