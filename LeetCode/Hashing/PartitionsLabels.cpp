@@ -28,3 +28,5 @@ vector<int> partitionLabels(string s)
     }
     return res;
 }
+// Input: s = "ababcbacadefegdehijhklij"
+// Output: [9,7,8]
