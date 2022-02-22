@@ -59,3 +59,5 @@ bool isValidSerialization(string p)
     }
     return numCount == 0;
 }
+// Input: preorder = "9,3,4,#,#,1,#,#,2,#,6,#,#"
+// Output: true
