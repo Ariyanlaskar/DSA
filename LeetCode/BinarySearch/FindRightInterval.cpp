@@ -39,3 +39,5 @@ vector<int> findRightInterval(vector<vector<int>> &intervals)
     }
     return ans;
 }
+// Input: intervals = [[1,2]]
+// Output: [-1]
