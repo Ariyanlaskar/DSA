@@ -26,3 +26,5 @@ vector<int> countBits(int n)
     }
     return dp;
 }
+// Input: n = 2
+// Output: [0,1,1]
