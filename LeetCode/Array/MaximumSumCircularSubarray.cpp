@@ -31,3 +31,5 @@ int maxSubarraySumCircular(vector<int> &nums)
     }
     return max(a, b + c);
 }
+Input: nums = [1,-2,3,-2]
+Output: 3
