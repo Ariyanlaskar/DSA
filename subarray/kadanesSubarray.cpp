@@ -14,8 +14,8 @@ int main(){
     int maxx=INT_MIN;
     for(int i=0;i<n;i++){
         currsum+=a[i];
-        if(currsum<0){
-            currsum=0;
+        if(currsum<a[i]){
+            currsum=a[i];
         }
         maxx=max(currsum,maxx);
     }
