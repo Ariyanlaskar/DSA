@@ -25,3 +25,8 @@ int pop()
     }
     return t;
 }
+// Input
+// ["FreqStack", "push", "push", "push", "push", "push", "push", "pop", "pop", "pop", "pop"]
+// [[], [5], [7], [5], [7], [4], [5], [], [], [], []]
+// Output
+// [null, null, null, null, null, null, null, 5, 7, 5, 4]
