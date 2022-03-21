@@ -30,3 +30,6 @@ vector<int> partitionLabels(string s)
 }
 // Input: s = "ababcbacadefegdehijhklij"
 // Output: [9,7,8]
+
+// Input: s = "eccbbbbdec"
+// Output: [10]
