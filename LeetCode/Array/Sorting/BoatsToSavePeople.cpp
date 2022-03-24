@@ -25,3 +25,4 @@ int numRescueBoats(vector<int> &people, int limit)
     return ans;
 }
 // Input: people = [3,2,2,1], limit = 3
+// Output: 3
