@@ -2,8 +2,7 @@
 using namespace std;
 int findPivot(vector<int> nums)
 {
-    int n = nums.size();
-    int l = 0, r = n - 1;
+    int l = 0, r = nums.size() - 1;
     while (l < r)
     {
         int mid = (l + r) / 2;
@@ -20,14 +19,14 @@ int findPivot(vector<int> nums)
 }
 bool search(vector<int> &nums, int target)
 {
+    int l, r;
     int n = nums.size();
     int pivot = findPivot(nums);
-    int l, r;
     while (pivot > 0 && nums[pivot - 1] <= nums[pivot])
     {
         pivot--;
     }
-    if (nums[pivot] <= target && nums[n - 1] >= target)
+    if (nums[pivot] <= target && target <= nums[n - 1])
     {
         l = pivot;
         r = n - 1;
