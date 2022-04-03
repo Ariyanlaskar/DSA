@@ -45,3 +45,6 @@ bool dfs(int node, vector<int> graph[], vector<int> &vis, vector<int> &vis2)
 
 // Input: numCourses = 2, prerequisites = [[1,0]]
 // Output: true
+
+// Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+// Output: false
