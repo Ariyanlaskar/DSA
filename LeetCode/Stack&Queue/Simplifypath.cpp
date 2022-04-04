@@ -54,3 +54,6 @@ string simplifyPath(string path)
 }
 // Input: path = "/home/"
 // Output: "/home"
+
+// Input: path = "/../"
+// Output: "/"
