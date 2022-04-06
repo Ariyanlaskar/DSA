@@ -15,3 +15,5 @@ int threeSumMulti(vector<int> &arr, int target)
     }
     return ans % 1000000007;
 }
+// Input: arr = [1,1,2,2,3,3,4,4,5,5], target = 8
+// Output: 20
