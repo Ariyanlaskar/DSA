@@ -14,3 +14,5 @@ int numSquares(int n)
     }
     return dp[n];
 }
+// Input: n = 12
+// Output: 3
