@@ -56,3 +56,5 @@ int CountCells(int i, int j, vector<vector<int>> &board)
     }
     return Count;
 }
+// Input: board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
+// Output: [[0,0,0],[1,0,1],[0,1,1],[0,1,0]]
