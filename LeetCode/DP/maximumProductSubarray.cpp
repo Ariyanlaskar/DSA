@@ -19,12 +19,6 @@ int maxProduct(vector<int> &nums)
     }
     return ans;
 }
-int main()
-{
-    vector<int>nums = {2,3,-2,4};
-    cout<<maxProduct(nums)<<endl;
-    return 0;
-}
 // Input: nums = [2,3,-2,4]
 // Output: 6
 // Explanation: [2,3] has the largest product 6.
