@@ -20,3 +20,5 @@ TreeNode *searchBST(TreeNode *root, int val)
     }
     return curr;
 }
+// Input: root = [4,2,7,1,3], val = 2
+// Output: [2,1,3]
