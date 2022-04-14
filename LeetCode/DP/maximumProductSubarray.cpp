@@ -3,8 +3,7 @@ using namespace std;
 int maxProduct(vector<int> &nums)
 {
     int n = nums.size();
-    vector<int> maxdp(n);
-    vector<int> mindp(n);
+    vector<int> maxdp(n), mindp(n);
     maxdp[0] = nums[0];
     mindp[0] = nums[0];
     for (int i = 1; i < n; i++)
@@ -13,9 +12,9 @@ int maxProduct(vector<int> &nums)
         mindp[i] = min(mindp[i - 1] * nums[i], min(maxdp[i - 1] * nums[i], nums[i]));
     }
     int ans = INT_MIN;
-    for (auto &n : maxdp)
+    for (auto i : maxdp)
     {
-        ans = max(ans, n);
+        ans = max(ans, i);
     }
     return ans;
 }
