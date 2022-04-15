@@ -9,3 +9,5 @@ int climbStairs(int n) {
     }
     return dp[n];
 }
+// Input: n = 2
+// Output: 2
