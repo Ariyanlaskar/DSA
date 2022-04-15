@@ -9,8 +9,3 @@ int climbStairs(int n) {
     }
     return dp[n];
 }
-int main(){
-    int n=2;
-    cout<<climbStairs(n)<<endl;
-    return 0;
-}
