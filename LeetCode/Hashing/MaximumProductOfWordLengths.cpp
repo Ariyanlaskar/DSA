@@ -38,3 +38,5 @@ bool check(bool a[26], bool b[26])
     }
     return true;
 }
+// Input: words = ["abcw","baz","foo","bar","xtfn","abcdef"]
+// Output: 16
