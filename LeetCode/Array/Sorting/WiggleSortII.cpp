@@ -21,3 +21,4 @@ void wiggleSort(vector<int> &nums)
 }
 // Input: nums = [1,5,1,1,6,4]
 // Output: [1,6,1,5,1,4]
+// Explanation: [1,4,1,5,1,6] is also accepted.
