@@ -49,10 +49,3 @@ bool empty()
 // Output
 // [null, null, null, 2, 2, false]
 
-// Explanation
-// MyStack myStack = new MyStack();
-// myStack.push(1);
-// myStack.push(2);
-// myStack.top(); // return 2
-// myStack.pop(); // return 2
-// myStack.empty(); // return False
