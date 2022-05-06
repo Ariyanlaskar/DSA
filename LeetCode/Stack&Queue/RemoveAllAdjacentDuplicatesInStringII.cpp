@@ -37,3 +37,5 @@ string removeDuplicates(string s, int k)
     reverse(ans.begin(), ans.end());
     return ans;
 }
+// Input: s = "deeedbbcccbdaa", k = 3
+// Output: "aa"
