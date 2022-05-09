@@ -44,3 +44,6 @@ using namespace std;
     }
 // Input: digits = "23"
 // Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
+// Input: digits = "2"
+// Output: ["a","b","c"]
