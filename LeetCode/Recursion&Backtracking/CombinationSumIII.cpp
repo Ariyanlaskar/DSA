@@ -1,21 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 vector<vector<int>> ans;
+vector<int> nums;
 vector<int> path;
 vector<vector<int>> combinationSum3(int k, int n)
 {
-    vector<int> nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    solve(nums, k, n, 0);
+    nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    findPath(k, n, 0);
     return ans;
 }
-void solve(vector<int> &nums, int k, int n, int idx)
+void findPath(int k, int n, int idx)
 {
-    int size = path.size();
-    if (n < 0 or size > k)
+    int Psize = path.size();
+    if (n < 0 || k < Psize)
     {
         return;
     }
-    if (n == 0 && k == size)
+    if (n == 0 && k == Psize)
     {
         ans.push_back(path);
         return;
@@ -27,7 +28,7 @@ void solve(vector<int> &nums, int k, int n, int idx)
             break;
         }
         path.push_back(nums[i]);
-        solve(nums, k, n - nums[i], i + 1);
+        findPath(k, n - nums[i], i + 1);
         path.pop_back();
     }
 }
