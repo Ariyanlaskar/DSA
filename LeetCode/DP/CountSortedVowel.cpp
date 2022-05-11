@@ -17,3 +17,5 @@ int countVowelStrings(int n)
     }
     return res;
 }
+// Input: n = 1
+// Output: 5
