@@ -20,9 +20,3 @@ int coinChange(vector<int>& coins, int amount) {
     }
     return dp[amount];
 }
-int main(){
-    vector<int>coins={1,2,5};
-    int amount=100;
-    cout<<coinChange(coins,amount);
-    return 0;
-}
