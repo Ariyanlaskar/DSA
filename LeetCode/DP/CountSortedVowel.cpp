@@ -19,3 +19,4 @@ int countVowelStrings(int n)
 }
 // Input: n = 1
 // Output: 5
+// Explanation: The 5 sorted strings that consist of vowels only are ["a","e","i","o","u"].
