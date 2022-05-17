@@ -22,10 +22,5 @@ int numTilings(int n)
     }
     return dp[n];
 }
-int main(){
-    int n=5;
-    cout<<numTilings(n)<<endl;
-    return 0;
-}
 // Input: n = 3
 // Output: 5
