@@ -23,8 +23,5 @@ int countSubstrings(string s)
     }
     return count;
 }
-int main(){
-    return 0;
-}
 // Input: s = "abc"
 // Output: 3
