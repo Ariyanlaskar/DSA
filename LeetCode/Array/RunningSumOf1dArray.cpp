@@ -10,6 +10,7 @@ vector<int> runningSum(vector<int> &nums)
 
     return nums;
 
+    // OR
     // vector<int>dp(n,0);
     // dp[0]=nums[0];
     // for(int i=1;i<n;i++){
