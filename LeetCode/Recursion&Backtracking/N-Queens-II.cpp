@@ -1,6 +1,7 @@
 // LeetCode Hard 52;
 #include <bits/stdc++.h>
 using namespace std;
+
 vector<vector<string>> QueenBoard;
 int totalNQueens(int n)
 {
@@ -59,5 +60,6 @@ bool isSafe(vector<string> &board, int row, int col)
     }
     return true;
 }
+
 // Input: n = 4
 // Output: 2
