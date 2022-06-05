@@ -59,4 +59,5 @@ bool isSafe(vector<string> &board, int row, int col)
     }
     return true;
 }
-// Output : 2;
+// Input: n = 4
+// Output: 2
