@@ -46,5 +46,6 @@ int main()
     cout<<findMedianSortedArrays(nums1,nums2)<<endl;
     return 0;
 }
+
 // Output: 2.00000
 // Explanation: merged array = [1,2,3] and median is 2.
