@@ -17,5 +17,6 @@ bool canBeEqual(vector<int> &target, vector<int> &arr)
     }
     return true;
 }
+
 // Input: target = [1,2,3,4], arr = [2,4,1,3]
 // Output: true
