@@ -54,3 +54,4 @@ int main()
     cout << LPS(s) << endl;
     return 0;
 }
+// Output : bab;
