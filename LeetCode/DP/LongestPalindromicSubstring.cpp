@@ -48,6 +48,7 @@ string LPS(string s)
     }
     return s.substr(start, len);
 }
+
 int main()
 {
     string s = "babdc";
