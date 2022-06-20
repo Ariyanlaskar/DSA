@@ -24,3 +24,4 @@ int main(){
     cout<<arrangeCoins(n)<<endl;
     return 0;
 }
+// OutPut : 2;
