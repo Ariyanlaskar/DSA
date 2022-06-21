@@ -16,12 +16,7 @@ int rob(vector<int> &nums)
     }
     return v[n - 1];
 }
-int main()
-{
-    vector<int>nums = {2,7,9,3,1};
-    cout<<rob(nums)<<endl;
-    return 0;
-}
+
 // Input: nums = [2,7,9,3,1]
 // Output: 12
 // Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
