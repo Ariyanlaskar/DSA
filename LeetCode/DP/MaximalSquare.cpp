@@ -30,6 +30,7 @@ int maximalSquare(vector<vector<char>> &matrix)
     }
     return ans * ans;
 }
+
 // Input: matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
 // Output: 4
 
