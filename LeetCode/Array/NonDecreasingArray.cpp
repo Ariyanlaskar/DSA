@@ -32,3 +32,6 @@ bool checkPossibility(vector<int> &nums)
     }
     return true;
 }
+
+// Input: nums = [4,2,3]
+// Output: true
