@@ -21,5 +21,6 @@ vector<int> kthSmallestPrimeFraction(vector<int> &arr, int k)
     ans.push_back(maxHeap.top().second.second);
     return ans;
 }
+
 // Input: arr = [1,2,3,5], k = 3
 // Output: [2,5]
