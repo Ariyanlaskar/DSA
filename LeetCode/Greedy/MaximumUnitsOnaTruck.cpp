@@ -23,11 +23,6 @@ int maximumUnits(vector<vector<int>> &boxTypes, int target)
     }
     return ans;
 }
-int main()
-{   
-    vector<vector<int>>boxTypes = {{1,3},{2,2},{3,1}};
-    int truckSize = 4;
-    cout<<maximumUnits(boxTypes,truckSize);
-    return 0;
-}
+
+// Input: boxTypes = [[1,3],[2,2],[3,1]], truckSize = 4
 // Output: 8
