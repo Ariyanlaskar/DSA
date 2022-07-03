@@ -33,5 +33,6 @@ vector<int> frequencySort(vector<int> &arr)
     }
     return nums;
 }
+
 // Input: nums = [1,1,2,2,2,3]
 // Output: [3,1,1,2,2,2]
