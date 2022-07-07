@@ -20,3 +20,6 @@ vector<int> arrayRankTransform(vector<int> &arr)
     }
     return dup;
 }
+
+// Input: arr = [40,10,20,30]
+// Output: [4,1,2,3]
