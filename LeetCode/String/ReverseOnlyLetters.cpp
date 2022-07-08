@@ -25,3 +25,6 @@ string reverseOnlyLetters(string s)
     }
     return s;
 }
+
+// Input: s = "ab-cd"
+// Output: "dc-ba"
