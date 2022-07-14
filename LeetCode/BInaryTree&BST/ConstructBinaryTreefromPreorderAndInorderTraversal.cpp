@@ -32,5 +32,6 @@ TreeNode *buildTree(vector<int> &preorder, vector<int> &inorder)
     TreeNode *root = Helper(preorder, inorder, 0, inorder.size() - 1, &idx);
     return root;
 }
+
 // Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
 // Output: [3,9,20,null,null,15,7]
