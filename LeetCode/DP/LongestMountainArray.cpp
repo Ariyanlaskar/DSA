@@ -29,3 +29,4 @@ int longestMountain(vector<int> &arr)
 }
 // Input: arr = [2,1,4,7,3,2,5]
 // Output: 5
+// Explanation: The largest mountain is [1,4,7,3,2] which has length 5.
