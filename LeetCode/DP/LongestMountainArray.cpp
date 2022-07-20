@@ -27,3 +27,5 @@ int longestMountain(vector<int> &arr)
         }
     }
 }
+// Input: arr = [2,1,4,7,3,2,5]
+// Output: 5
