@@ -32,3 +32,4 @@ int minOperations(string s)
 }
 // Input: s = "0100"
 // Output: 1
+// Explanation: If you change the last character to '1', s will be "0101", which is alternating.
