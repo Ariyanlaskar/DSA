@@ -41,8 +41,6 @@ int countBinarySubstrings(string s){
 //     }
 //     return ans;
 // }
-int main(){
-    string s = "10101";
-    cout<<countBinarySubstrings(s)<<endl;
-    return 0;
-}
+
+// Input: s = "00110011"
+// Output: 6
