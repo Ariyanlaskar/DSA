@@ -27,5 +27,5 @@ string removeDuplicates(string s)
     reverse(ans.begin(), ans.end());
     return ans;
 }
-Input: s = "abbaca"
-Output: "ca"
+// Input: s = "abbaca"
+// Output: "ca"
