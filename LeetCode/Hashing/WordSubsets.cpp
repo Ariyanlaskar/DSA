@@ -36,5 +36,6 @@ vector<string> wordSubsets(vector<string> &words1, vector<string> &words2)
     }
     return ans;
 }
+
 // Input: words1 = ["amazon","apple","facebook","google","leetcode"], words2 = ["e","o"]
 // Output: ["facebook","google","leetcode"]
