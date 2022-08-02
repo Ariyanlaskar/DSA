@@ -41,5 +41,6 @@ int countMin(vector<vector<int>> &matrix, int mid)
     }
     return count;
 }
+
 // Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8
 // Output: 13
