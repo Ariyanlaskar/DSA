@@ -22,5 +22,6 @@ vector<vector<int>> kClosest(vector<vector<int>> &p, int k)
     }
     return res;
 }
+
 //  points = [[1,3],[-2,2]], k = 1
 // Output: [[-2,2]]
