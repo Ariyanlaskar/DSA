@@ -1,4 +1,3 @@
-//LeetCode Easy 383;
 #include <bits/stdc++.h>
 using namespace std;
 bool canConstruct(string ransomNote, string magazine)
