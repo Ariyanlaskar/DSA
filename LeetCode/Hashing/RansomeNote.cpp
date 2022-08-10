@@ -21,11 +21,6 @@ bool canConstruct(string ransomNote, string magazine)
     }
     return true;
 }
-int main()
-{
-    string ransomNote = "a", magazine = "b";
-    cout<<canConstruct(ransomNote,magazine)<<endl;
-    return 0;
-}
+
 // Input: ransomNote = "a", magazine = "b"
 // Output: false
