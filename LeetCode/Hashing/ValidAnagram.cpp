@@ -27,11 +27,6 @@ bool isAnagram(string s, string t)
     }
     return flag;
 }
-int main()
-{
-    string s= "anagram", t = "nagaram";
-    cout<<isAnagram(s,t)<<endl;
-    return 0;
-}
+
 // Input: s = "anagram", t = "nagaram"
 // Output: true
