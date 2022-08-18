@@ -17,5 +17,6 @@ int firstUniqChar(string s)
     }
     return -1;
 }
+
 // Input: s = "loveleetcode"
 // Output: 2
