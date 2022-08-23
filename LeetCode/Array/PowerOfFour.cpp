@@ -12,5 +12,6 @@ bool isPowerOfFour(int n)
     }
     return false;
 }
+
 // Input: n = 16
 // Output: true
