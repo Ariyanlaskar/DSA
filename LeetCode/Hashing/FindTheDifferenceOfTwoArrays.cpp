@@ -2,8 +2,7 @@
 using namespace std;
 vector<vector<int>> findDifference(vector<int> &nums1, vector<int> &nums2)
 {
-    vector<vector<int>> ans(2);
-    vector<int> DV1, DV2;
+    vector<vector<int>> res(2);
     unordered_map<int, int> mp1, mp2;
     for (auto iter : nums1)
     {
@@ -17,7 +16,7 @@ vector<vector<int>> findDifference(vector<int> &nums1, vector<int> &nums2)
     {
         if (mp2[it] == 0)
         {
-            ans[0].push_back(it);
+            res[0].push_back(it);
             mp2[it]++;
         }
     }
@@ -25,11 +24,11 @@ vector<vector<int>> findDifference(vector<int> &nums1, vector<int> &nums2)
     {
         if (mp1[it2] == 0)
         {
-            ans[1].push_back(it2);
+            res[1].push_back(it2);
             mp1[it2]++;
         }
     }
-    return ans;
+    return res;
 }
 // Input: nums1 = [1,2,3], nums2 = [2,4,6]
 // Output: [[1,3],[4,6]]
