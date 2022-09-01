@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+int count = 0;
+int goodNodes(TreeNode *root)
+{
+    dfs(root, INT_MIN);
+    return count;
+}
+void dfs(TreeNode *root, int MaxValue)
+{
+    if (root == NULL)
+    {
+        return;
+    }
+    if (root->val >= MaxValue)
+    {
+        count++;
+        MaxValue = root->val;
+    }
+    dfs(root->left, MaxValue);
+    dfs(root->right, MaxValue);
+}
+
