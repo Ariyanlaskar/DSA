@@ -20,5 +20,6 @@ void dfs(TreeNode *root, int MaxValue)
     dfs(root->left, MaxValue);
     dfs(root->right, MaxValue);
 }
+
 // Input: root = [3,1,4,3,null,1,5]
 // Output: 4
