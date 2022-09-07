@@ -15,5 +15,6 @@ TreeNode *pruneTree(TreeNode *root)
     }
     return root;
 }
+
 // Input: root = [1,null,0,0,1]
 // Output: [1,null,0,null,1]
