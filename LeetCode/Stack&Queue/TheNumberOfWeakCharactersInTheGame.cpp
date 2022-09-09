@@ -29,3 +29,5 @@ int numberOfWeakCharacters(vector<vector<int>> &properties)
     }
     return count;
 }
+// Input: properties = [[1,5],[10,4],[4,3]]
+// Output: 1
