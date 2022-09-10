@@ -25,4 +25,4 @@ void findComb(vector<int> &candidates, int target, int idx)
     }
     findComb(candidates, target, idx + 1);
 }
-// Output = [[2,2,2,2],[2,3,3],[3,5]];
+
