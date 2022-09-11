@@ -31,5 +31,6 @@ int findComb(vector<int> &nums, int target, vector<int> &dp)
     dp[target] = count;
     return dp[target];
 }
+
 // Input: nums = [1,2,3], target = 4
 // Output: 7
