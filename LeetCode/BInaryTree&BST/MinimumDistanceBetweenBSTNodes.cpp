@@ -21,5 +21,29 @@ void getMin(TreeNode *root)
     val = root->val;
     getMin(root->right);
 }
+// OOORRRRR
+
+// vector<int> v;
+// int minDiffInBST(TreeNode *root)
+// {
+//     inorder(root);
+//     int ans = INT_MAX;
+//     for (int i = 1; i < v.size(); i++)
+//     {
+//         ans = (min(abs(v[i] - v[i - 1]), ans));
+//     }
+//     return ans;
+// }
+// void inorder(TreeNode *root)
+// {
+//     if (root == NULL)
+//     {
+//         return;
+//     }
+//     inorder(root->left);
+//     v.push_back(root->val);
+//     inorder(root->right);
+// }
+
 // Input: root = [4,2,6,1,3]
 // Output: 1
