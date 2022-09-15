@@ -33,5 +33,6 @@ void dfs(TreeNode *root)
     dfs(root->right);
     mp[root->val]--;
 }
+
 // Input: root = [2,3,1,3,1,null,1]
 // Output: 2 
