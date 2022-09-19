@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-//Using HashMap;
-unordered_map<int, int> mp;
+// Using HashMap;
+unordered_map<long, long> mp;
 int count = 0;
 int pathSum(TreeNode *root, int targetSum)
 {
@@ -9,7 +9,7 @@ int pathSum(TreeNode *root, int targetSum)
     CountPathSum(root, targetSum, 0);
     return count;
 }
-void CountPathSum(TreeNode *root, int targetSum, int sum)
+void CountPathSum(TreeNode *root, int targetSum, long sum)
 {
     if (root == NULL)
     {
@@ -25,7 +25,7 @@ void CountPathSum(TreeNode *root, int targetSum, int sum)
     CountPathSum(root->right, targetSum, sum);
     mp[sum]--;
 }
-//Without Using HashMap; 
+// Without Using HashMap;
 int count = 0;
 int pathSum(TreeNode *root, int targetSum)
 {
