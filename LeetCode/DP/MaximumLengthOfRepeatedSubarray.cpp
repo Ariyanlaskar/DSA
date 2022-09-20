@@ -25,3 +25,5 @@ int findLength(vector<int> &nums1, vector<int> &nums2)
     }
     return count;
 }
+// Input: nums1 = [1,2,3,2,1], nums2 = [3,2,1,4,7]
+// Output: 3
