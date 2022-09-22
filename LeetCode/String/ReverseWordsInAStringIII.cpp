@@ -24,5 +24,27 @@ string reverseWords(string s)
     }
     return s;
 }
+// OR
+
+// string reverseWords(string s)
+// {
+//     int n = s.length();
+//     int start = 0, end = 0;
+//     for (int j = 0; j <= n; j++)
+//     {
+//         if (s[j] == ' ' || j == n)
+//         {
+//             end = j;
+//             while (start < end)
+//             {
+//                 swap(s[start], s[end - 1]);
+//                 start++, end--;
+//             }
+//             start = j + 1;
+//         }
+//     }
+//     return s;
+// }
+
 // Input: s = "Let's take LeetCode contest"
 // Output: "s'teL ekat edoCteeL tsetnoc"
