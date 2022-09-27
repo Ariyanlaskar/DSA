@@ -76,5 +76,5 @@ void solve(int i, int j, vector<char> &arr)
         }
     }
 }
-Input: dominoes = "RR.L"
-Output: "RR.L"
+// Input: dominoes = "RR.L"
+// Output: "RR.L"
