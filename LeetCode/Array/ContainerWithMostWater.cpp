@@ -26,27 +26,26 @@ int main()
     cout << maxArea(height) << endl;
     return 0;
 }
+
 // Output: 16
 
-// OR(different code);
 // int maxArea(vector<int> &height)
 // {
+//     int ans = 0, cal = 0;
 //     int i = 0, j = height.size() - 1;
-//     int ans = 0;
 //     while (i < j)
 //     {
 //         if (height[i] < height[j])
 //         {
-//             int cal = (height[i] * (j - i));
-//             ans = max(ans, cal);
+//             cal = height[i] * (j - i);
 //             i++;
 //         }
 //         else
 //         {
-//             int cal = (height[j] * (j - i));
-//             ans = max(ans, cal);
+//             cal = height[j] * (j - i);
 //             j--;
 //         }
+//         ans = max(ans, cal);
 //     }
 //     return ans;
 // }
