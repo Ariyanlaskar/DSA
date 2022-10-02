@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 double average(vector<int> &salary)
 {
     double sum = 0;
