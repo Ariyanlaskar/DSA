@@ -22,10 +22,5 @@ bool check(vector<int> &nums)
     }
     return true;
 }
-int main()
-{
-    vector<int>nums = {3,4,5,1,2};
-    cout<<check(nums)<<endl;
-    return 0;
-}
+// input : 3,4,5,1,2
 // Output: true
