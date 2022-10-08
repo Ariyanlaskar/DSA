@@ -2,9 +2,7 @@
 using namespace std;
 int threeSumClosest(vector<int> &nums, int target)
 {
-    int n = nums.size();
-    int minAbsVal = INT_MAX;
-    int ans = 0;
+    int n = nums.size(), closestValue = -1, minValue = INT_MAX;
     sort(nums.begin(), nums.end());
     for (int i = 0; i <= n - 3; i++)
     {
@@ -12,10 +10,10 @@ int threeSumClosest(vector<int> &nums, int target)
         int r = n - 1;
         while (l < r)
         {
-            if (abs(nums[i] + nums[l] + nums[r] - target) < minAbsVal)
+            if (abs(nums[i] + nums[l] + nums[r] - target) < minValue)
             {
-                minAbsVal = abs(nums[i] + nums[l] + nums[r] - target);
-                ans = nums[i] + nums[l] + nums[r];
+                minValue = abs(nums[i] + nums[l] + nums[r] - target);
+                closestValue = nums[i] + nums[l] + nums[r];
             }
             if (nums[i] + nums[l] + nums[r] < target)
             {
@@ -25,13 +23,13 @@ int threeSumClosest(vector<int> &nums, int target)
             {
                 r--;
             }
-            else if (nums[i] + nums[l] + nums[r] == target)
+            else
             {
-                return nums[i] + nums[l] + nums[r];
+                return target;
             }
         }
     }
-    return ans;
+    return closestValue;
 }
 
-//OutPut : 2;
+// OutPut : 2;
