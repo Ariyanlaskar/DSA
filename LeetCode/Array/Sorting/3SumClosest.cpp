@@ -33,11 +33,5 @@ int threeSumClosest(vector<int> &nums, int target)
     }
     return ans;
 }
-int main()
-{
-    vector<int>nums = {-1,2,1,-4};
-    int target = 1;
-    cout<<threeSumClosest(nums,target);
-    return 0;
-}
+
 //OutPut : 2;
