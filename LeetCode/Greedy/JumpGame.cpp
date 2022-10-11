@@ -19,9 +19,6 @@ bool canJump(vector<int>& nums) {
     }
     return true;
 }
-int main(){
-    vector<int>nums = {2,3,1,1,4};
-    cout<<canJump(nums)<<endl;
 
-    return 0;
-}
+// Input: nums = [1,2,3,4,5]
+// Output: true
