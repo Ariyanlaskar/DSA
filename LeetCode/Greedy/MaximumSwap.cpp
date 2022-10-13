@@ -23,3 +23,5 @@ int maximumSwap(int num)
     }
     return stoi(nums);
 }
+// Input: num = 2736
+// Output: 7236
