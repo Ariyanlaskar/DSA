@@ -27,5 +27,6 @@ int findMinFibonacciNumbers(int k)
     }
     return ans;
 }
+
 // Input: k = 7
 // Output: 2 
