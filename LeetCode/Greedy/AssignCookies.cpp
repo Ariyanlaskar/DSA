@@ -22,10 +22,5 @@ int findContentChildren(vector<int> &g, vector<int> &s)
     }
     return count;
 }
-int main()
-{
-    vector<int>g = {1,2,3}, s = {1,1};
-    cout<<findContentChildren(g,s);
-    return 0;
-}
-// Output : 1;
+// Input: g = [1,2,3], s = [1,1]
+// Output: 1
