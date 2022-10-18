@@ -22,5 +22,6 @@ int findContentChildren(vector<int> &g, vector<int> &s)
     }
     return count;
 }
+
 // Input: g = [1,2,3], s = [1,1]
 // Output: 1
