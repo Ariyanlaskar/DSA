@@ -34,5 +34,6 @@ int bagOfTokensScore(vector<int> &tokens, int power)
     }
     return score;
 }
+
 // Input: tokens = [100,200,300,400], power = 200
 // Output: 2
