@@ -18,5 +18,6 @@ vector<int> findClosestElements(vector<int> &arr, int k, int x)
     sort(ans.begin(), ans.end());
     return ans;
 }
+
 // Input: arr = [1,2,3,4,5], k = 4, x = 3
 // Output: [1,2,3,4]
