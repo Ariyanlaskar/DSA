@@ -24,5 +24,6 @@ int minimumDeviation(vector<int> &nums)
     }
     return min(diff, maxh.top() - mini);
 }
+
 // Input: nums = [1,2,3,4]
 // Output: 1
