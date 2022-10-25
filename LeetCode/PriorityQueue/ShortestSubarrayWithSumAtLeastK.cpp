@@ -46,5 +46,6 @@ int shortestSubarray(vector<int> &nums, int k)
     }
     return -1;
 }
+
 // Input: nums = [2,-1,2], k = 3
 // Output: 3
