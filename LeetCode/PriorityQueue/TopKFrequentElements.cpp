@@ -22,5 +22,6 @@ vector<int> topKFrequent(vector<int> &nums, int k)
     }
     return ans;
 }
+
 // Input: nums = [1,1,1,2,2,3], k = 2
 // Output: [1,2]
