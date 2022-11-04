@@ -31,5 +31,6 @@ bool solve(string s, int pos)
     }
     return mp[pos] = false;
 }
+
 // Input: s = "leetcode", wordDict = ["leet","code"]
 // Output: true
