@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 unordered_map<string, int> st;
 unordered_map<int, bool> mp;
+
 bool wordBreak(string s, vector<string> &wordDict)
 {
     for (int i = 0; i < wordDict.size(); i++)
