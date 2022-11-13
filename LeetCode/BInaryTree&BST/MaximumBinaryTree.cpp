@@ -25,5 +25,6 @@ TreeNode *helper(vector<int> &nums, int start, int end)
     root->right = helper(nums, idx + 1, end);
     return root;
 }
+
 // Input: nums = [3,2,1,6,0,5]
 // Output: [6,3,5,null,2,0,null,null,1]
