@@ -21,6 +21,31 @@ int mySqrt(int x)
     }
     return start - 1;
 }
+double morePrecision(int n, int p, int tempSol)
+{
+    double factor = 1;
+    double ans = tempSol;
+    for (int i = 0; i < p; i++)
+    {
+        factor = factor / 10;
+        for (double j = ans; j * j < n; j += factor)
+        {
+            ans = j;
+        }
+    }
+    return ans;
+}
+int main()
+{
+    int n;
+    cin >> n;
+    int p;
+    cin >> p;
+    int tempSol = mySqrt(n);
+    double res = morePrecision(n, p, tempSol);
+    cout << res << endl;
+    return 0;
+}
 // Input: x = 4
 // Output: 2
 
