@@ -21,6 +21,7 @@ int mySqrt(int x)
     }
     return start - 1;
 }
+// It will return answer in perfect square(in 'double' format not 'int');
 double morePrecision(int n, int p, int tempSol)
 {
     double factor = 1;
