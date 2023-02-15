@@ -1,50 +1,53 @@
 // Spoj Problem
 #include <bits/stdc++.h>
 using namespace std;
-bool isPossible(vector<int> &v, int n, int k, int mid)
+bool isPossible(vector<long long int> &v, int n, int k, int mid)
 {
-    int m = k;
+    long long int sum = 0;
     for (int i = 0; i < n; i++)
     {
-        if (v[i] > mid && v[i] - mid <= m)
+        if (v[i] > mid)
         {
-            m -= v[i] - mid;
-            if (m >= 0 && i == n - 1)
-            {
-                return true;
-            }
+            sum += v[i] - mid;
         }
     }
-    return false;
+    if (sum >= k)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }
 int main()
 {
     int n, m;
     cin >> n >> m;
-    vector<int> v;
+    vector<long long int> v;
     for (int i = 0; i < n; i++)
     {
-        int a;
+        long long int a;
         cin >> a;
         v.push_back(a);
     }
-    int start = 0, end = -1;
+    long long int start = 0, end = -1;
     for (int i = 0; i < v.size(); i++)
     {
         end = max(v[i], end);
     }
-    int mid = start + (end - start) / 2;
-    int ans = -1;
+    long long int mid = start + (end - start) / 2;
+    long long ans = 0;
     while (start <= end)
     {
         if (isPossible(v, n, m, mid))
         {
             ans = mid;
-            end = mid - 1;
+            start = mid + 1;
         }
         else
         {
-            start = mid + 1;
+            end = mid - 1;
         }
         mid = start + (end - start) / 2;
     }
