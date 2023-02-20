@@ -1,4 +1,4 @@
-//Using Two Pointer Approach;
+// Using Two Pointer Approach;
 #include <bits/stdc++.h>
 using namespace std;
 void moveZeroes(vector<int> &nums)
@@ -19,12 +19,7 @@ void moveZeroes(vector<int> &nums)
                 first++;
                 second++;
             }
-            else if (nums[first] != 0 && nums[second] == 0)
-            {
-                first++;
-                second++;
-            }
-            else if (nums[first] != 0 && nums[second] != 0)
+            else if ((nums[first] != 0 && nums[second] == 0) || (nums[first] != 0 && nums[second] != 0))
             {
                 first++;
                 second++;
@@ -32,7 +27,7 @@ void moveZeroes(vector<int> &nums)
         }
     }
 }
-//Alternate Method;
+// Alternate Method;
 void moveZeroes(vector<int> &nums)
 {
     vector<int> ans;
