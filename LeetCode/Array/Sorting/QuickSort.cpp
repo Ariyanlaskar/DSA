@@ -49,4 +49,4 @@ vector<int> quickSort(vector<int> arr)
 }
 
 // input : [1,8,2,4,0,1,4];
-// output : [0,1,1,2,4,4,8]
+// output : [0,1,1,2,4,4,8];
