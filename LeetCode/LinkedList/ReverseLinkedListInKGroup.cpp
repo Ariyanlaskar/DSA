@@ -29,8 +29,6 @@ ListNode *reverse(ListNode *&head, int k, int size, int n)
     }
     return prev;
 }
-
-public:
 ListNode *reverseKGroup(ListNode *head, int k)
 {
     ListNode *temp = head;
